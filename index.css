@@ -182,77 +182,96 @@ header table {
     background-size:cover;
     background-repeat:no-repeat;
 }
+
 #projects {
-    width:92vw;
-    padding:6vh 4vw;
-    /* font-weight:bold; */
+    background-color: #F5F5F5;
 }
+
 #projects h1 {
     padding:5px 0px;
     /* border-bottom:4px solid rgb(255, 44, 90); */
     border-bottom:4px solid #A9A9A9;
-    width:13%;
+    width:9%;
 }
 
-h5 {
-    font-size: 17px;
+#projects h5 {
+    font-size: 16px;
     font-weight: 700;
 }
-#projects img {
-    width: 450px;
-    height: 350px;
-    margin:4.5% 0px;
+#projects a {
     transition:0.4s ease-in-out;
     border: 1px solid black;
+    display: block;
+    height: 450px;
+    background-color: white;
+}
+#projects img {
+    width:100%;
+    /* margin:4.5% 0px; */
 }
 #projects p {
     font-size: 14px;
     /* font-weight: normal; */
 }
-#thesis {
-    width:92vw;
-    padding:6vh 4vw;
-    /* font-weight:bold; */
-}
+
 #thesis h1 {
     padding:5px 0px;
     /* border-bottom:4px solid rgb(255, 44, 90); */
     border-bottom:4px solid #A9A9A9;
-    width:19%;
+    width:14%;
+}
+#thesis h5 {
+    font-size: 16px;
+    font-weight: 700;
 }
 #thesis img {
-    height: 350px;
-    width: 550px;
+    /* height: 350px;
+    width: 550px; */
+    width:100%;
 }
 #tech {
-    width:92vw;
-    padding:6vh 4vw;
-    /* font-weight:bold; */
+    background-color: #F5F5F5;
 }
+#tech p {
+    font-size: 14px;
+}
+
 #tech h1 {
     padding:5px 0px;
     /* border-bottom:4px solid rgb(255, 44, 90); */
     border-bottom:4px solid #A9A9A9;
-    width:17%;
+    width:12%;
+}
+#tech h5 {
+    font-size: 16px;
+    font-weight: 700;
 }
 #tech img {
-    height: 380px;
-    width: 560px;
+    /* height: 380px;
+    width: 560px; */
+    width:100%;
 }
-#work {
-    width:92vw;
-    padding:6vh 4vw;
-    /* font-weight:bold; */
+#tech p {
+    font-size: 14px;
 }
+
 #work h1 {
     padding:5px 0px;
     /* border-bottom:4px solid rgb(255, 44, 90); */
     border-bottom:4px solid #A9A9A9;
-    width:25%;
+    width:18%;
 }
 #work img {
-    height: 350px;
-    width: 550px;
+    /* height: 350px;
+    width: 550px; */
+    width:100%;
+}
+#work h5 {
+    font-size: 16px;
+    font-weight: 700;
+}
+#work p {
+    font-size: 14px;
 }
 #photos {
     width:100%;
@@ -272,25 +291,20 @@ h5 {
     cursor: pointer;
 }
 #bio {
-    width:92vw;
-    padding:6vh 4vw;
-    /* font-weight:bold; */
+    background-color: #F5F5F5;
 }
 #bio h1 {
     padding:5px 0px;
     /* border-bottom:4px solid rgb(255, 44, 90); */
     border-bottom:4px solid #A9A9A9;
-    width:8%;
+    width:7%;
 }
-#contact {
-    width:92vw;
-    padding:6vh 4vw;
-}
+
 #contact h1 {
     padding:5px 0px;
     /* border-bottom:4px solid rgb(255, 44, 90); */
     border-bottom:4px solid #A9A9A9;
-    width:25%;
+    width:9%;
 }
 #contact table {
     width:100%;
@@ -486,9 +500,11 @@ button:focus {
     margin-top: 35px;
     margin-bottom: 35px;
 }
-
-h3 {
+h1 {
     margin-left: 40px;
+}
+h3 {
+    margin-left: 80px;
 }
 
 /* Timeline styling starts */
