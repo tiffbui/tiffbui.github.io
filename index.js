@@ -7,7 +7,7 @@ if ((width >= 1000)){
         $("#header").css("box-shadow","0px 0px 20px rgba(0,0,0,0.09)");
         $("#header").css("padding","4vh 4vw");
         $("#navigation a").hover(function(){
-            $(this).css("border-bottom","2px solid rgb(255, 44, 90)");
+            $(this).css("border-bottom","2px solid rgb(169, 169, 169)");
         },function(){
             $(this).css("border-bottom","2px solid transparent");
         });
@@ -65,3 +65,21 @@ $(document).ready(function(){
       });
   });
   
+  /*Scroll to top when arrow up clicked BEGIN*/
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+    if (height > 100) {
+        $('#back2Top').fadeIn();
+    } else {
+        $('#back2Top').fadeOut();
+    }
+});
+$(document).ready(function() {
+    $("#back2Top").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
+
+});
+ /*Scroll to top when arrow up clicked END*/

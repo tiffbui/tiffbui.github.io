@@ -88,6 +88,11 @@ header table {
     /* color:rgb(255, 44, 90); */
     color:#A9A9A9;
 }
+#logo a {
+    font-size:24px;
+    /* color:rgb(255, 44, 90); */
+    color:#A9A9A9;
+}
 #navigation {
     text-align:right;
 }
@@ -100,8 +105,12 @@ header table {
     margin-left:4vw;
     transition:0.4s ease-in-out;
 }
+#navigation .current {
+    border-bottom:2px solid rgb(169, 169, 169);
+}
 #navigation a:hover{
-    border-bottom:2px solid #fff;
+    /* border-bottom:2px solid #fff; */
+    border-bottom:2px solid rgb(169, 169, 169);
 }
 #top_part {
     width:100%;
@@ -183,9 +192,9 @@ header table {
     background-repeat:no-repeat;
 }
 
-#projects {
+/* #projects {
     background-color: #F5F5F5;
-}
+} */
 
 #projects h1 {
     padding:5px 0px;
@@ -213,7 +222,9 @@ header table {
     font-size: 14px;
     /* font-weight: normal; */
 }
-
+#thesis {
+    padding-top:180px;
+}
 #thesis h1 {
     padding:5px 0px;
     /* border-bottom:4px solid rgb(255, 44, 90); */
@@ -230,7 +241,8 @@ header table {
     width:100%;
 }
 #tech {
-    background-color: #F5F5F5;
+    /* background-color: #F5F5F5; */
+    padding-top: 180px;
 }
 #tech p {
     font-size: 14px;
@@ -254,7 +266,9 @@ header table {
 #tech p {
     font-size: 14px;
 }
-
+#work {
+    padding-top: 180px;
+}
 #work h1 {
     padding:5px 0px;
     /* border-bottom:4px solid rgb(255, 44, 90); */
@@ -291,13 +305,17 @@ header table {
     cursor: pointer;
 }
 #bio {
-    background-color: #F5F5F5;
+    /* background-color: #F5F5F5; */
+    padding-top: 180px;
 }
 #bio h1 {
     padding:5px 0px;
     /* border-bottom:4px solid rgb(255, 44, 90); */
     border-bottom:4px solid #A9A9A9;
     width:7%;
+}
+#contact {
+    padding-top: 180px;
 }
 
 #contact h1 {
@@ -568,4 +586,30 @@ h4{text-align:center;margin:30px 0;color:#444}
 @media only screen and (max-width:479px){.main-timeline .timeline-content,.main-timeline .timeline:nth-child(2n) .timeline-content{padding-left:110px}
 .main-timeline .timeline-content:before,.main-timeline .timeline:nth-child(2n) .timeline-content:before{left:99px}
 .main-timeline .timeline-content:after,.main-timeline .timeline:nth-child(2n) .timeline-content:after{left:65px}
+}
+
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #A9A9A9;
+    color: #000;
 }
