@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </head>
 <body>
     <div id="loading">
@@ -28,9 +30,9 @@
                 </td>
                 <td id="navigation">
                     <a href="/">projects</a>
-                    <a href="senior_thesis">senior thesis</a>
-                    <a href="tech_packs">tech packs</a>
-                    <a href="work_experience" class="current">work experience</a>
+                    <a href="senior-thesis">senior thesis</a>
+                    <a href="tech-packs">tech packs</a>
+                    <a href="work-experience" class="current">work experience</a>
                     <a href="about">about</a>
                     <a href="contact">contact</a>
                 </td>
@@ -48,28 +50,57 @@
                         Fashion Design Internship | Summer 2019<br>&nbsp;
                     </p>
                     <img src="assets/kohls_nine_west_designs/COVER PHOTO - NINE WEST.jpg" class="image">
-                    <img src="assets/kohls_nine_west_designs/Kohls, D-RING SKIRT.png" class="image">
-                    <img src="assets/kohls_nine_west_designs/WW01Y162 D RING UTILITY POCKET WRAP SKIRT.ai.jpg" class="image">
-                    <img src="assets/kohls_nine_west_designs/Kohls, WELT POCKET SHORTS.png" class="image">
-                    <img src="assets/kohls_nine_west_designs/WW01X192 BELTED WELT POCKET SHORTS.jpg" class="image">
+                    <div class="carousel" data-flickity='{ "contain": true, "freeScroll": true }'>
+                        <div class="carousel-cell">
+                            <img src="assets/kohls_nine_west_designs/Kohls, D-RING SKIRT.png" class="image">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/kohls_nine_west_designs/WW01Y162 D RING UTILITY POCKET WRAP SKIRT.ai.jpg" class="image">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/kohls_nine_west_designs/Kohls, WELT POCKET SHORTS.png" class="image">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/kohls_nine_west_designs/WW01X192 BELTED WELT POCKET SHORTS.jpg" class="image">
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-12">
+                    <br>&nbsp;
                     <h5>KOHL'S | SHARK TANK</h5>
                     <p>
                         Introducing Lauren Conrad: The Feel Good Line
                         This project was to introduce a sustainable/eco-friendly product line for Kohl's millennial customer.
                     </p>
                     <img src="assets/kohls_shark_tank_pitch/COVER PHOTO - SHARK TANK.jpeg" class="image">
-                    <img src="assets/kohls_shark_tank_pitch/Slide1.jpeg" class="image">
-                    <img src="assets/kohls_shark_tank_pitch/Slide2.jpeg" class="image">
-                    <img src="assets/kohls_shark_tank_pitch/Slide3.jpeg" class="image">
-                    <img src="assets/kohls_shark_tank_pitch/Slide6.jpeg" class="image">
-                    <img src="assets/kohls_shark_tank_pitch/Slide7.jpeg" class="image">
-                    <img src="assets/kohls_shark_tank_pitch/Slide8.jpeg" class="image">
-                    <img src="assets/kohls_shark_tank_pitch/Slide9.jpeg" class="image">
-                    <img src="assets/kohls_shark_tank_pitch/Slide14.jpeg" class="image">
+                    <div class="carousel" data-flickity='{ "contain": true, "freeScroll": true }'>
+                        <div class="carousel-cell">
+                            <img src="assets/kohls_shark_tank_pitch/Slide1.jpeg" class="image">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/kohls_shark_tank_pitch/Slide2.jpeg" class="image">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/kohls_shark_tank_pitch/Slide3.jpeg" class="image">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/kohls_shark_tank_pitch/Slide6.jpeg" class="image">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/kohls_shark_tank_pitch/Slide7.jpeg" class="image">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/kohls_shark_tank_pitch/Slide8.jpeg" class="image">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/kohls_shark_tank_pitch/Slide9.jpeg" class="image">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/kohls_shark_tank_pitch/Slide14.jpeg" class="image">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -77,6 +108,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
+                    <br>&nbsp;
                     <div class="main-timeline">
                         <a href="#" class="timeline">
                             <div class="timeline-icon"><i class="fa fa-pencil-alt"></i></div>
@@ -159,7 +191,6 @@
 
     <div id="footer">
         © 2020 Tiffany Bui
-        <a class="social" href="https://www.linkedin.com/in/tiffany-bui-868a8b35"><i class="fab fa-linkedin"></i></a>
         <a id="back2Top" title="Back to top" href="#">&#10148;</a>
     </div>
 
