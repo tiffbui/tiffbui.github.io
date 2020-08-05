@@ -192,9 +192,10 @@ header table {
     background-repeat:no-repeat;
 }
 
-/* #projects {
-    background-color: #F5F5F5;
-} */
+#projects {
+    /* background-color: #F5F5F5; */
+    padding-top:180px;
+}
 
 #projects h1 {
     padding:5px 0px;
