@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tiffany bui</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="magnify">
+        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+        <div id="img_here"></div>
+    </div>
+    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <table>
+            <tr>
+                <td id="logo">
+                    <a href="/">tiffany bui</a>
+                </td>
+                <td id="navigation">
+                    <a href="/">work experience</a>
+                    <a href="projects" class="current">projects</a>
+                    <a href="senior-thesis">senior thesis</a>
+                    <a href="tech-packs">tech packs</a>
+                    <a href="about">about</a>
+                    <a href="contact">contact</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <!-- <table id="top_part">
+        <tr>
+            <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
+                <h1>portfolio</h1>
+            </td>
+            <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
+        </tr>
+    </table> -->
+
+    <div id="projects">
+        <h1>projects</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h5>FORM & TEXTURE</h5>
+                    <p>
+                        A knitwear collection exploring how form and texture influences silhouettes.<br>&nbsp;
+                    </p>
+                    <img src="assets/form_and_texture/COVER PHOTO - FORM TEXTURE.jpg" alt="form_and_texture">
+
+                    <div class="carousel" data-flickity='{ "contain": true }'>
+                        <div class="carousel-cell">
+                            <img src="assets/form_and_texture/FSH 650 1.jpg" alt="form_and_texture">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/form_and_texture/FSH 650 2.jpg" alt="form_and_texture">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/form_and_texture/FSH 650 3.jpg" alt="form_and_texture">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/form_and_texture/FSH 650 FABRIC.jpg" alt="form_and_texture">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/form_and_texture/FSH 650 MOODBOARD.jpg" alt="form_and_texture">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <br>&nbsp;<br>&nbsp;
+                    <h5>DECONSTRUCTION</h5>
+                    <p>
+                        A knitwear collection exploring the elements of deconstruction through visual elements.
+                    </p>
+                    <img src="assets/deconstruction/COVER PHOTO - DECONSTRUCTION.jpg" alt="deconstruction">
+
+                    <div class="carousel" data-flickity='{ "contain": true }'>
+                        <div class="carousel-cell">
+                            <img src="assets/deconstruction/Scan.jpeg" alt="deconstruction">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/deconstruction/Scan 1.jpeg" alt="deconstruction">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/deconstruction/Scan 2.jpeg" alt="deconstruction">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <br>&nbsp;<br>&nbsp;
+                    <h5>ISABEL MARANT</h5>
+                    <p>
+                        A product development project which entails producing a collection through trend research. 
+                    </p>
+                    <img src="assets/isabel_marant/COVER PHOTO - ISABEL MARANT.jpeg" alt="isabel_marant">
+
+                    <div class="carousel" data-flickity='{ "contain": true }'>
+                        <div class="carousel-cell">
+                            <img src="assets/isabel_marant/FSH 632 Linesheets.jpg" alt="isabel_marant">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/isabel_marant/FSH 632 Linesheets2.jpg" alt="isabel_marant">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/isabel_marant/FSH 632 Linesheets3.jpg" alt="isabel_marant">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/isabel_marant/FSH 632 Linesheets4.jpg" alt="isabel_marant">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/isabel_marant/Slide2_.jpeg" alt="isabel_marant">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/isabel_marant/Slide7_.jpeg" alt="isabel_marant">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/isabel_marant/Slide10_.jpeg" alt="isabel_marant">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/isabel_marant/Slide12_.jpeg" alt="isabel_marant">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/isabel_marant/Slide13_.jpeg" alt="isabel_marant">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/isabel_marant/Slide15_.jpeg" alt="isabel_marant">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/isabel_marant/Slide16_.jpeg" alt="isabel_marant">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/isabel_marant/Slide19_.jpeg" alt="isabel_marant">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <br>&nbsp;<br>&nbsp;
+                    <h5>FOR LOVE & LEMONS</h5>
+                    <p>
+                        <br>&nbsp;
+                    </p>
+                    <img src="assets/for_love_lemons/COVER PHOTO - FOR LOVE LEMONS.png" alt="for_love_lemons">
+                    <div class="carousel" data-flickity='{ "contain": true }'>
+                        <div class="carousel-cell">
+                            <img src="assets/for_love_lemons/Screen Shot 2020-08-02 at 3.30.32 PM.png" alt="for_love_lemons">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/for_love_lemons/Screen Shot 2020-08-02 at 3.30.52 PM.png" alt="for_love_lemons">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/for_love_lemons/Screen Shot 2020-08-02 at 3.31.19 PM.png" alt="for_love_lemons">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/for_love_lemons/Screen Shot 2020-08-02 at 3.31.37 PM.png" alt="for_love_lemons">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/for_love_lemons/Screen Shot 2020-08-02 at 3.32.00 PM.png" alt="for_love_lemons">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/for_love_lemons/Screen Shot 2020-08-02 at 3.32.20 PM.png" alt="for_love_lemons">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/for_love_lemons/Screen Shot 2020-08-02 at 3.32.41 PM.png" alt="for_love_lemons">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/for_love_lemons/Screen Shot 2020-08-02 at 3.33.06 PM.png" alt="for_love_lemons">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/for_love_lemons/Screen Shot 2020-08-02 at 3.33.36 PM.png" alt="for_love_lemons">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/for_love_lemons/Screen Shot 2020-08-02 at 3.33.52 PM.png" alt="for_love_lemons">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/for_love_lemons/Screen Shot 2020-08-02 at 3.34.17 PM.png" alt="for_love_lemons">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/for_love_lemons/Screen Shot 2020-08-02 at 3.47.14 PM.png" alt="for_love_lemons">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/for_love_lemons/Screen Shot 2020-08-02 at 3.34.46 PM.png" alt="for_love_lemons">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/for_love_lemons/Screen Shot 2020-08-02 at 3.35.11 PM.png" alt="for_love_lemons">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/for_love_lemons/Screen Shot 2020-08-02 at 3.35.31 PM.png" alt="for_love_lemons">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/for_love_lemons/Screen Shot 2020-08-02 at 3.37.19 PM.png" alt="for_love_lemons">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/for_love_lemons/Screen Shot 2020-08-02 at 3.36.02 PM.png" alt="for_love_lemons">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/for_love_lemons/Screen Shot 2020-08-02 at 3.36.35 PM.png" alt="for_love_lemons">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/for_love_lemons/Screen Shot 2020-08-02 at 3.36.21 PM.png" alt="for_love_lemons">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="assets/for_love_lemons/Screen Shot 2020-08-02 at 3.37.00 PM.png" alt="for_love_lemons">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        © 2020 Tiffany Bui
+        <a id="back2Top" title="Back to top" href="#">&#10148;</a>
+    </div>
+
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
